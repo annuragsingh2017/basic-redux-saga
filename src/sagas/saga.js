@@ -13,7 +13,7 @@ const fetchUserData = () => {
       throw e;
     });
 };
-
+console.log("Testing For Git Methods In Saga File");
 function* fetchUser(action) {
   try {
     const user = yield call(fetchUserData);
